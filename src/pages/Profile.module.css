@@ -1,0 +1,179 @@
+.logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.dot1 {
+  width: 25px;
+  height: 20px;
+  background-color: #a259ff;
+  border-radius: 50%;
+}
+
+.dot2 {
+  width: 25px;
+  height: 35px;
+  background-color: #f24e9c;
+  border-radius: 999px;
+}
+
+.profile,
+.logout {
+  display: block;
+  width: 100%;
+  background-color: #a259ff;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 12px;
+  transition: background 0.2s ease;
+}
+
+.profile:hover,
+.logout:hover {
+  background-color: #913fff;
+}
+
+.formContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput,
+.formSelect {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-width: 180px;
+}
+
+.formInput:focus,
+.formSelect:focus {
+  outline: none;
+  border-color: #a259ff;
+  box-shadow: 0 0 0 2px rgba(162, 89, 255, 0.2);
+}
+
+.formButton {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #a259ff;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.formButton:hover {
+  background-color: #913fff;
+}
+
+.formInput {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  min-width: 180px;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #a259ff;
+  box-shadow: 0 0 0 2px rgba(162, 89, 255, 0.2);
+}
+
+.create {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #a259ff;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.delete {
+  padding: 8px 20px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+/* 📱 Responsive cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .formContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .formGroup {
+    width: 100%;
+  }
+
+  .formInput,
+  .formSelect {
+    width: 100%;
+  }
+
+  .formButton,
+  .create,
+  .delete {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .logo {
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .profile,
+  .logout {
+    font-size: 14px;
+    padding: 8px 0;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  table th,
+  table td {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  aside {
+    width: 100% !important;
+    padding: 12px !important;
+    display: block !important;
+    text-align: center;
+  }
+  main {
+    padding: 16px !important;
+  }
+}
