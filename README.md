@@ -26,7 +26,10 @@ Giao diện frontend của dự án AgileTech – được xây dựng bằng Re
 
 ### 1. Clone repository: 
 -git clone https://github.com/TunDQ/agile_test.git  
+
 -cd agile_test
+
+==========
 ###2. Cài đặt dependencies:           
 - npm install
 3. Chạy project:          
