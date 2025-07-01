@@ -21,6 +21,7 @@ Giao diện frontend của dự án AgileTech – được xây dựng bằng Re
 - Node.js ≥ 18.x
 - npm hoặc yarn
 
+------
 ## 🛠️ Cài đặt & chạy
 
 ### 1. Clone repository: 
